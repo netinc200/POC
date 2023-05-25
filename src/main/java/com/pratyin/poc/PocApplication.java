@@ -17,6 +17,7 @@ public class PocApplication {
     System.out.println(number % 3 == 0 && number % 5 == 0 ? "Java Programming"
         : number % 3 == 0 ? "Java" : number % 5 == 0 ? "Programming" : "" + number);
 System.out.println("POll GIT");System.out.println("POll GIT");
+    System.out.println("POll GIT");
     
     // /
 

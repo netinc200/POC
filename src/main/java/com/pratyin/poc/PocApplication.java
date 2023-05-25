@@ -24,23 +24,23 @@ public class PocApplication {
     // i = 0;
     // }
 
-    List<String> stringList = List.of("Ankit", "Sonam", "Priya", "Neha", "Ankit");
-    System.out.println(stringList.stream()
-        .collect(Collectors.groupingBy(Function.identity(), Collectors.counting())));
+//     List<String> stringList = List.of("Ankit", "Sonam", "Priya", "Neha", "Ankit");
+//     System.out.println(stringList.stream()
+//         .collect(Collectors.groupingBy(Function.identity(), Collectors.counting())));
 
-    Set<Character> charSet = new LinkedHashSet<>();
-    "ankit kumarit".chars().mapToObj(c -> (char) c).collect(Collectors.toList()).stream()
-        .filter(value -> !charSet.add(value)).collect(Collectors.toSet())
-        .forEach(System.out::println);
+//     Set<Character> charSet = new LinkedHashSet<>();
+//     "ankit kumarit".chars().mapToObj(c -> (char) c).collect(Collectors.toList()).stream()
+//         .filter(value -> !charSet.add(value)).collect(Collectors.toSet())
+//         .forEach(System.out::println);
 
     // repo.findAll().forEach({ emp->
     // map.put(Employee::getId,emp);
     // });
   }
 
-  public static String getMessage(String name) {
-    return name.length() >= 10 ? "10 " + name
-        : name.length() > 8 ? "8 " + name
-            : name.length() >= 5 ? "5 " + name : name.length() >= 3 ? "3 " + name : name;
-  }
+//   public static String getMessage(String name) {
+//     return name.length() >= 10 ? "10 " + name
+//         : name.length() > 8 ? "8 " + name
+//             : name.length() >= 5 ? "5 " + name : name.length() >= 3 ? "3 " + name : name;
+//   }
 }
